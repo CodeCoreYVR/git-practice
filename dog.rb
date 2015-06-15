@@ -8,7 +8,7 @@ class Dog
   def give(bone)
     # ensuring that the dog has less than three bones in order to accept a new
     # one
-    if @bones.length < 3
+    if @bones.length < 6
       # add the bone to the bones array
       @bones << bone
     else
