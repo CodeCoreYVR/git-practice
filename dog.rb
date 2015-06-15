@@ -1,3 +1,4 @@
+#I am a naughty little doggy.
 class Dog
 
   def initialize(color, type)
@@ -8,7 +9,7 @@ class Dog
   def give(bone)
     # ensuring that the dog has less than three bones in order to accept a new
     # one
-    if @bones.length < 10
+    if @bones.length < 83
       # add the bone to the bones array
       @bones << bone
     else
@@ -25,6 +26,10 @@ class Dog
       # the "bone" object has a "size" attribute.
       puts "I ate a #{@bones.pop.size} bone!"
     end
+  end
+
+  def bad_dog
+    puts "Peed on the rug"
   end
 
 end
