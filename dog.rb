@@ -9,7 +9,9 @@ class Dog
     # ensuring that the dog has less than three bones in order to accept a new
     # one
 
-    if @bones.length < rand(3333)
+
+    if @bones.length < 888
+
 
       # add the bone to the bones array
       @bones << bone
